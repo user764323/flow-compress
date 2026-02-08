@@ -21,6 +21,8 @@ The framework is organized into three core modules:
 Shared helpers live in `flow_compress/utils`. Experiment runners in `experiments/` mirror the
 quantization structure for distillation and pruning with batch runners and result visualizers.
 
+![img_1](images/img_1.png)
+
 ## Prerequisites
 
 - Python 3.10+
@@ -596,6 +598,12 @@ docs/
 | Flow-Compress | 80% | 4/6-bit (mixed) | 74.95 | -1.89 | 7.0 |
 | Sequential (P→D→Q) | 90% | 4-bit | 69.40 | -7.44 | 4.3 |
 | Flow-Compress | 90% | 4-bit / 4–6 mixed | 71.10 | -5.74 | 4.1 |
+
+## Visualization
+![img_1](images/img_2.png)
+![img_1](images/img_3.png)
+![img_1](images/img_4.png)
+![img_1](images/img_5.png)
 
 ## Licence
 
